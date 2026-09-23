@@ -55,6 +55,9 @@ claude mcp add elicita-pro --transport http https://elicita.es/mcp-v2 \
 
 ## Nota operativa
 
-El edge de Cloudflare de elicita.es filtra clientes con User-Agent no
-navegador (página 403). Los clientes MCP estándar con UA identificable
-funcionan; si tu cliente recibe 403 HTML, es esto y no una caída del servicio.
+El edge de Cloudflare de elicita.es bloquea User-Agents de herramientas
+(curl, wget, python-requests…) en todo el sitio **salvo `/mcp-v2`**, que
+tiene una excepción explícita en la regla de firewall desde el 2026-09-23.
+Cualquier cliente MCP funciona con independencia de su User-Agent. Si
+recibes 403 HTML, comprueba que apuntas a `/mcp-v2` — no es una caída
+del servicio.
