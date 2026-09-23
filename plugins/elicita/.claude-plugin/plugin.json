@@ -1,0 +1,11 @@
+{
+  "name": "elicita",
+  "description": "Contratación pública española para agentes: busca licitaciones, consulta estadísticas y cobertura de fuentes, y explora snapshots de mercado verificables (technology, construcción, salud). Vía MCP en elicita.es.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Elicita",
+    "url": "https://elicita.es"
+  },
+  "homepage": "https://elicita.es",
+  "keywords": ["licitaciones", "procurement", "spain", "mcp", "data"]
+}

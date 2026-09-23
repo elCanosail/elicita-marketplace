@@ -1,0 +1,26 @@
+{
+  "name": "elicita-marketplace",
+  "owner": {
+    "name": "Elicita",
+    "url": "https://elicita.es"
+  },
+  "metadata": {
+    "description": "Plugins de Elicita: contratación pública española verificable para agentes",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "elicita",
+      "source": "./plugins/elicita",
+      "description": "Contratación pública española para agentes: búsqueda de licitaciones, estadísticas, cobertura de fuentes y snapshots de mercado verificables vía MCP.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Elicita",
+        "url": "https://elicita.es"
+      },
+      "homepage": "https://elicita.es",
+      "category": "data",
+      "keywords": ["licitaciones", "procurement", "spain", "mcp", "data"]
+    }
+  ]
+}

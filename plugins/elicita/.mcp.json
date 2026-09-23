@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "elicita": {
+      "type": "http",
+      "url": "https://elicita.es/mcp-v2"
+    }
+  }
+}
