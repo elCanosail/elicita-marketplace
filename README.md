@@ -15,7 +15,7 @@ Servidor MCP en producción: `https://elicita.es/mcp-v2` (streamable HTTP,
 ### Claude Code
 
 ```bash
-/plugin marketplace add elCanosail/claude-marketplace
+/plugin marketplace add elCanosail/elicita-marketplace
 /plugin install elicita@elicita-marketplace
 ```
 
