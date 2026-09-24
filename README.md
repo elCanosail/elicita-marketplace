@@ -5,10 +5,12 @@
 Plugin de [Elicita](https://elicita.es) para Claude: contratación pública española
 verificable para agentes — búsqueda de licitaciones, estadísticas del corpus,
 cobertura de fuentes y **snapshots de mercado bit-a-bit reproducibles**
-(tecnología, construcción, salud).
+(tecnología, construcción, salud, energía).
 
 Servidor MCP en producción: `https://elicita.es/mcp-v2` (streamable HTTP,
 `elicita-mcp-sidecar 2.0.0`).
+
+¿Has sido invitado al piloto? Lee la [guía rápida del piloto](docs/PILOTO-MCP.md).
 
 ## Instalación
 
