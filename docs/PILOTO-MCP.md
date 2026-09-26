@@ -14,7 +14,7 @@ licitaciones sobre 13,4M de registros PLACSP.
 
 ## Conexión
 
-Servidor: `https://elicita.es/mcp-v2` (streamable HTTP, MCP `2026-07-28` y
+Servidor: `https://elicita.es/mcp` (streamable HTTP, MCP `2026-07-28` y
 compatibilidad con clientes previos).
 
 ### Desde Claude (recomendado)
@@ -33,7 +33,7 @@ Elicita (plan Pro) y la clave MCP se crea automáticamente.
 {
   "mcpServers": {
     "elicita": {
-      "url": "https://elicita.es/mcp-v2",
+      "url": "https://elicita.es/mcp",
       "transport": "streamable-http"
     }
   }
@@ -43,7 +43,7 @@ Elicita (plan Pro) y la clave MCP se crea automáticamente.
 ### HTTP crudo (programático)
 
 ```bash
-curl -X POST https://elicita.es/mcp-v2 \
+curl -X POST https://elicita.es/mcp \
   -H "Authorization: Bearer elicita_live_TU_CLAVE" \
   -H "Content-Type: application/json" \
   -H "Accept: application/json, text/event-stream" \

@@ -1,13 +1,13 @@
 # Elicita para Claude — marketplace de plugins
 
-[![Verified MCP handshake](https://img.shields.io/badge/MCP-v2%20streamable--http-brightgreen)](https://elicita.es/mcp-v2)
+[![Verified MCP handshake](https://img.shields.io/badge/MCP-v2%20streamable--http-brightgreen)](https://elicita.es/mcp)
 
 Plugin de [Elicita](https://elicita.es) para Claude: contratación pública española
 verificable para agentes — búsqueda de licitaciones, estadísticas del corpus,
 cobertura de fuentes y **snapshots de mercado bit-a-bit reproducibles**
 (tecnología, construcción, salud, energía).
 
-Servidor MCP en producción: `https://elicita.es/mcp-v2` (streamable HTTP,
+Servidor MCP en producción: `https://elicita.es/mcp` (streamable HTTP,
 `elicita-mcp-sidecar 2.0.0`).
 
 ¿Has sido invitado al piloto? Lee la [guía rápida del piloto](docs/PILOTO-MCP.md).
@@ -45,7 +45,7 @@ El uso libre tiene cuota por IP. Para quitar límites, hazte Pro en
 https://elicita.es y añade tu propio servidor con la clave:
 
 ```bash
-claude mcp add elicita-pro --transport http https://elicita.es/mcp-v2 \
+claude mcp add elicita-pro --transport http https://elicita.es/mcp \
   --header "Authorization: Bearer TU_API_KEY"
 ```
 
